@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d3fcd95-e93f-489f-bd12-96d13b8fa2f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommentApp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommentApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommentInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommentList.js" afterDir="false" />
+    <list default="true" id="5d3fcd95-e93f-489f-bd12-96d13b8fa2f9" name="Default Changelist" comment="fix:add docs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/main.58f0ed49.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/main.58f0ed49.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/2.7b6d5a1d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/2.7b6d5a1d.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/2.7b6d5a1d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/3.fc750490.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/3.fc750490.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/main.c796db97.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/main.c796db97.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/runtime-main.b991271a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/runtime-main.b991271a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,41 +99,109 @@
       <option name="presentableId" value="Default" />
       <updated>1627958473021</updated>
       <workItem from="1627958474334" duration="3348000" />
-      <workItem from="1627969303477" duration="5986000" />
+      <workItem from="1627969303477" duration="6553000" />
     </task>
+    <task id="LOCAL-00001" summary="feat:comment">
+      <created>1627976179841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627976179841</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix:rename disk">
+      <created>1627976357255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627976357255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix:add docs">
+      <created>1627976487099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627976487099</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat:comment" />
+    <MESSAGE value="fix:rename disk" />
+    <MESSAGE value="fix:add docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:add docs" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1627976344617">
+    <state x="113" y="0" key="CommitChangelistDialog2" timestamp="1627976767981">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627976344617" />
+    <state x="113" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627976767981" />
+    <state x="31" y="51" key="DiffContextDialog" timestamp="1627976722011">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="31" y="51" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1627976722011" />
     <state x="477" y="214" key="Github.ShareDialog" timestamp="1627976259951">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="477" y="214" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1627976259951" />
-    <state width="1259" height="53" key="GridCell.Tab.0.bottom" timestamp="1627976235948">
+    <state width="1259" height="309" key="GridCell.Tab.0.bottom" timestamp="1627976695316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="53" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627976235948" />
-    <state width="1259" height="53" key="GridCell.Tab.0.center" timestamp="1627976235948">
+    <state width="1259" height="309" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627976695316" />
+    <state width="1259" height="309" key="GridCell.Tab.0.center" timestamp="1627976695316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="53" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627976235948" />
-    <state width="1259" height="53" key="GridCell.Tab.0.left" timestamp="1627976235948">
+    <state width="1259" height="309" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627976695316" />
+    <state width="1259" height="309" key="GridCell.Tab.0.left" timestamp="1627976695316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="53" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627976235948" />
-    <state width="1259" height="53" key="GridCell.Tab.0.right" timestamp="1627976235948">
+    <state width="1259" height="309" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627976695316" />
+    <state width="1259" height="309" key="GridCell.Tab.0.right" timestamp="1627976695316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="53" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627976235948" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627976187044">
+    <state width="1259" height="309" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627976695316" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627976772590">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627976187044" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627976772590" />
   </component>
 </project>
