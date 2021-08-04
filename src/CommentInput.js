@@ -7,7 +7,7 @@ class CommentInput extends Component {
         this.state = {
             username: '',
             content: ''
-        }
+        };
     }
 
     handleUserNameChange(event) {
@@ -35,6 +35,29 @@ class CommentInput extends Component {
     // DOM加载完毕执行
     componentDidMount() {
         this.textarea.focus();
+        this._loadUserName();
+    }
+
+    handleUserNameBlur(event) {
+        let username = event.target.value;
+        if (username) {
+            this._saveUserName(username);
+        } else {
+            alert('请输入名称');
+        }
+    }
+
+    _loadUserName() {
+        let username = localStorage.getItem("username");
+        if (username) {
+            this.setState({
+                username
+            });
+        }
+    }
+
+    _saveUserName(username) {
+        localStorage.setItem("username", username);
     }
 
     render() {
@@ -43,7 +66,8 @@ class CommentInput extends Component {
                 <div className='comment-field'>
                     <span className='comment-field-name'>用户名：</span>
                     <div className='comment-field-input'>
-                        <input value={this.state.username} onChange={this.handleUserNameChange.bind(this)}/>
+                        <input value={this.state.username} onChange={this.handleUserNameChange.bind(this)}
+                               onBlur={this.handleUserNameBlur.bind(this)}/>
                     </div>
                 </div>
                 <div className='comment-field'>
