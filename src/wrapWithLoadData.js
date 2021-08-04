@@ -24,7 +24,7 @@ const wrapWithLoadData = (WrappedComponent, name) => {
             }catch (e) {
                 data = localStorage.getItem(name);
             }
-            return data;
+            return data === null ? [] : data;
         }
 
         render() {
