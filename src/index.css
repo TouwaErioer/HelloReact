@@ -115,3 +115,12 @@ code {
 .date-text{
   color: gray;
 }
+
+.del-button{
+  color: transparent;
+  margin: 0 3px;
+}
+
+.del-button:hover{
+  color: cornflowerblue;
+}

@@ -8,9 +8,10 @@ class Comment extends Component {
         this.state = {timeString: ''}
     }
 
-    // 组件参数验证
     static propsType = {
-        comment: PropTypes.object.isRequired
+        comment: PropTypes.object.isRequired,
+        onDeleteComment: PropTypes.func.isRequired,
+        index: PropTypes.number.isRequired
     };
 
     _updateTimeString() {
@@ -25,7 +26,6 @@ class Comment extends Component {
 
     componentDidMount() {
         this._updateTimeString();
-        // 定时器
         this._timer = setInterval(
             this._updateTimeString.bind(this),
             5000
@@ -36,6 +36,12 @@ class Comment extends Component {
         clearInterval(this._timer);
     }
 
+    handleDeleteComment() {
+        if (this.props.onDeleteComment) {
+            this.props.onDeleteComment(this.props.index);
+        }
+    }
+
     render() {
         return (
             <div className='comment'>
@@ -43,7 +49,10 @@ class Comment extends Component {
                     <span className='comment-user'>{this.props.comment.username} </span>：
                     <div>{this.props.comment.content}</div>
                 </div>
-                <div className='date-text'>{this.state.timeString}</div>
+                <div className='content'>
+                    <div className='del-button' onClick={this.handleDeleteComment.bind(this)}>删除</div>
+                    <div className='date-text'>{this.state.timeString}</div>
+                </div>
             </div>
         )
     }
