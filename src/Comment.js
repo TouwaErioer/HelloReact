@@ -1,6 +1,12 @@
 import React, {Component} from 'react'
-
+import PropTypes from 'prop-types'
 class Comment extends Component {
+
+    // 组件参数验证
+    static propsType = {
+        comment: PropTypes.object.isRequired
+    };
+
     render() {
         return (
             <div className='comment'>
