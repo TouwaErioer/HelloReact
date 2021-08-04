@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d3fcd95-e93f-489f-bd12-96d13b8fa2f9" name="Default Changelist" comment="feat:自动聚焦评论框">
-      <change afterPath="$PROJECT_DIR$/docs/static/css/main.5bf3ee69.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/js/2.8c4431d2.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/js/2.8c4431d2.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/js/main.9f2782db.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/js/main.9f2782db.chunk.js.map" afterDir="false" />
+    <list default="true" id="5d3fcd95-e93f-489f-bd12-96d13b8fa2f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/main.58f0ed49.chunk.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/css/main.5bf3ee69.chunk.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/main.58f0ed49.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/2.7b6d5a1d.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/2.7b6d5a1d.chunk.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/2.8c4431d2.chunk.js.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/2.7b6d5a1d.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/3.fc750490.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/3.7fa6cbf1.chunk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/3.fc750490.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/3.7fa6cbf1.chunk.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/main.c796db97.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/main.c796db97.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/runtime-main.9680e790.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/runtime-main.b99c3020.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/runtime-main.9680e790.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/runtime-main.b99c3020.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrapWithLoadData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrapWithLoadData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,16 +54,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -91,10 +64,14 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.build" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +89,7 @@
       <workItem from="1627969303477" duration="7813000" />
       <workItem from="1627978396963" duration="22000" />
       <workItem from="1628040132892" duration="8269000" />
-      <workItem from="1628055720759" duration="2222000" />
+      <workItem from="1628055720759" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="feat:comment">
       <created>1627976179841</created>
@@ -198,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628056265949</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="build:docs">
+      <created>1628058060029</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628058060029</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,37 +236,42 @@
     <MESSAGE value="feat:显示时间，每过5秒刷新" />
     <MESSAGE value="feat:删除指定评论" />
     <MESSAGE value="feat:高阶组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:高阶组件" />
+    <MESSAGE value="build:docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="build:docs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="113" y="0" key="CommitChangelistDialog2" timestamp="1628056264662">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628058283942">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="113" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628056264662" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1628058283942" />
+    <state x="71" y="5" width="972" height="675" key="CommitChangelistDialog2" timestamp="1628058478536">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="71" y="5" width="972" height="675" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628058478536" />
     <state x="31" y="51" key="DiffContextDialog" timestamp="1627976722011">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="31" y="51" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1627976722011" />
-    <state x="477" y="214" key="Github.ShareDialog" timestamp="1628057883431">
+    <state x="477" y="214" key="Github.ShareDialog" timestamp="1628058099607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="477" y="214" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1628057883431" />
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1628057974623">
+    <state x="477" y="214" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1628058099607" />
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1628058388648">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1628057974623" />
-    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1628057974623">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1628058388648" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1628058388648">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1628057974623" />
-    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1628057974623">
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1628058388648" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1628058388648">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1628057974623" />
-    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1628057974623">
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1628058388648" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1628058388648">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1628057974623" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1628058388648" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628057734099">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
