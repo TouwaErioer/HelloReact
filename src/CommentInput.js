@@ -1,11 +1,18 @@
 import React, {Component} from 'react'
+import wrapWithLoadData from "./wrapWithLoadData";
+import PropTypes from "prop-types";
 
 class CommentInput extends Component {
+
+    static propTypes = {
+        data: PropTypes.any.isRequired,
+        saveData: PropTypes.func.isRequired
+    };
 
     constructor(props) {
         super(props);
         this.state = {
-            username: '',
+            username: this.props.data,
             content: ''
         };
     }
@@ -27,38 +34,21 @@ class CommentInput extends Component {
             const {username, content} = this.state;
             let date = +new Date();
             this.props.onSubmit({username, content, date});
-            this.setState({
-                content: ''
-            })
+            this.setState({content: ''})
         }
     }
 
-    // DOM加载完毕执行
     componentDidMount() {
         this.textarea.focus();
-        this._loadUserName();
     }
 
     handleUserNameBlur(event) {
         let username = event.target.value;
         if (username) {
-            this._saveUserName(username);
+            this.props.saveData(username);
         } else {
             alert('请输入名称');
         }
-    }
-
-    _loadUserName() {
-        let username = localStorage.getItem("username");
-        if (username) {
-            this.setState({
-                username
-            });
-        }
-    }
-
-    _saveUserName(username) {
-        localStorage.setItem("username", username);
     }
 
     render() {
@@ -76,8 +66,7 @@ class CommentInput extends Component {
                     <div className='comment-field-input'>
                         <textarea value={this.state.content} onChange={this.handleContentChange.bind(this)}
                                   ref={(textarea) => {
-                                      this.textarea = textarea
-                                  }}/>
+                                      this.textarea = textarea}}/>
                     </div>
                 </div>
                 <div className='comment-field-button'>
@@ -90,4 +79,5 @@ class CommentInput extends Component {
     }
 }
 
+CommentInput = wrapWithLoadData(CommentInput, "username");
 export default CommentInput;
