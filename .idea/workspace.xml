@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d3fcd95-e93f-489f-bd12-96d13b8fa2f9" name="Default Changelist" comment="fix:add docs">
+    <list default="true" id="5d3fcd95-e93f-489f-bd12-96d13b8fa2f9" name="Default Changelist" comment="feat:自动聚焦评论框">
+      <change afterPath="$PROJECT_DIR$/docs/static/css/main.5bf3ee69.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/static/js/2.8c4431d2.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/static/js/2.8c4431d2.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/static/js/main.9f2782db.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/static/js/main.9f2782db.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/main.58f0ed49.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/main.58f0ed49.chunk.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/css/main.5bf3ee69.chunk.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/static/css/main.58f0ed49.chunk.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/static/js/2.7b6d5a1d.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/2.7b6d5a1d.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/2.7b6d5a1d.chunk.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/2.8c4431d2.chunk.js.LICENSE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/static/js/2.7b6d5a1d.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/3.fc750490.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/3.fc750490.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/3.fc750490.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/3.7fa6cbf1.chunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/3.fc750490.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/3.7fa6cbf1.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/static/js/main.c796db97.chunk.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/static/js/main.c796db97.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/runtime-main.b991271a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/runtime-main.b991271a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/runtime-main.9680e790.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/runtime-main.b99c3020.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/runtime-main.9680e790.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/runtime-main.b99c3020.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -85,6 +94,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +109,10 @@
       <option name="presentableId" value="Default" />
       <updated>1627958473021</updated>
       <workItem from="1627958474334" duration="3348000" />
-      <workItem from="1627969303477" duration="6553000" />
+      <workItem from="1627969303477" duration="7813000" />
+      <workItem from="1627978396963" duration="22000" />
+      <workItem from="1628040132892" duration="8269000" />
+      <workItem from="1628055720759" duration="2222000" />
     </task>
     <task id="LOCAL-00001" summary="feat:comment">
       <created>1627976179841</created>
@@ -122,7 +135,70 @@
       <option name="project" value="LOCAL" />
       <updated>1627976487099</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix:homepage">
+      <created>1627976769188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627976769188</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix:add docs">
+      <created>1627976824107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627976824107</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat:自动聚焦评论框">
+      <created>1628040532077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628040532077</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat:用户名持久化">
+      <created>1628042108104</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628042108104</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat:组件参数验证">
+      <created>1628042298634</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628042298634</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat:持久化评论">
+      <created>1628042802685</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628042802685</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat:显示时间，每过5秒刷新">
+      <created>1628043630151</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628043630151</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat:删除指定评论">
+      <created>1628044597828</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628044597828</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat:高阶组件">
+      <created>1628056265949</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1628056265949</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,41 +243,49 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:comment" />
     <MESSAGE value="fix:rename disk" />
+    <MESSAGE value="fix:homepage" />
     <MESSAGE value="fix:add docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:add docs" />
+    <MESSAGE value="feat:自动聚焦评论框" />
+    <MESSAGE value="feat:用户名持久化" />
+    <MESSAGE value="feat:组件参数验证" />
+    <MESSAGE value="feat:持久化评论" />
+    <MESSAGE value="feat:显示时间，每过5秒刷新" />
+    <MESSAGE value="feat:删除指定评论" />
+    <MESSAGE value="feat:高阶组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:高阶组件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="113" y="0" key="CommitChangelistDialog2" timestamp="1627976767981">
+    <state x="113" y="0" key="CommitChangelistDialog2" timestamp="1628056264662">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="113" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627976767981" />
+    <state x="113" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628056264662" />
     <state x="31" y="51" key="DiffContextDialog" timestamp="1627976722011">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="31" y="51" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1627976722011" />
-    <state x="477" y="214" key="Github.ShareDialog" timestamp="1627976259951">
+    <state x="477" y="214" key="Github.ShareDialog" timestamp="1628057883431">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="477" y="214" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1627976259951" />
-    <state width="1259" height="309" key="GridCell.Tab.0.bottom" timestamp="1627976695316">
+    <state x="477" y="214" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1628057883431" />
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1628057974623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="309" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627976695316" />
-    <state width="1259" height="309" key="GridCell.Tab.0.center" timestamp="1627976695316">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1628057974623" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1628057974623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="309" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627976695316" />
-    <state width="1259" height="309" key="GridCell.Tab.0.left" timestamp="1627976695316">
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1628057974623" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1628057974623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="309" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627976695316" />
-    <state width="1259" height="309" key="GridCell.Tab.0.right" timestamp="1627976695316">
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1628057974623" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1628057974623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="309" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627976695316" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627976772590">
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1628057974623" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628057734099">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627976772590" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628057734099" />
   </component>
 </project>
