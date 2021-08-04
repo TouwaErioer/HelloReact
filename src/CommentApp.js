@@ -15,7 +15,6 @@ class CommentApp extends Component {
         if (!comment) return;
         if (!comment.username) return alert('请输入用户名');
         if (!comment.content) return alert('请输入评论内容');
-        comment.date = new Date().toLocaleString();
         this.state.comments.push(comment);
         // 组件重新渲染
         this.setState({

@@ -25,7 +25,8 @@ class CommentInput extends Component {
     handleSubmit() {
         if (this.props.onSubmit) {
             const {username, content} = this.state;
-            this.props.onSubmit({username, content});
+            let date = +new Date();
+            this.props.onSubmit({username, content, date});
             this.setState({
                 content: ''
             })
