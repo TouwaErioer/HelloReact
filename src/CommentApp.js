@@ -20,7 +20,23 @@ class CommentApp extends Component {
         // 组件重新渲染
         this.setState({
             comment: this.state.comments
-        })
+        });
+        this._saveComment();
+    }
+
+    _loadComment() {
+        let comments = localStorage.getItem('comments');
+        if (comments) {
+            this.setState({comments: JSON.parse(comments)});
+        }
+    }
+
+    _saveComment() {
+        localStorage.setItem('comments', JSON.stringify(this.state.comments));
+    }
+
+    componentDidMount() {
+        this._loadComment();
     }
 
     render() {
